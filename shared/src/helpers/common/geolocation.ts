@@ -1,7 +1,7 @@
 export const getUserGeoDetails = async () => {
   const endpoints = [
     "https://www.cloudflare.com/cdn-cgi/trace",
-    "https://cf-ns.com/cdn-cgi/trace", // Cloudflare China Network
+    "https://cf-ns.com/cdn-cgi/trace", 
   ];
 
   try {
